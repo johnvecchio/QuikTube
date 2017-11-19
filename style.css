@@ -1,7 +1,15 @@
-html, body {
+html {
 	font-family: 'Nunito' !important;
 	/*background-color: #f9dbe4 !important;*/
-	background-color: #dbfffd !important;
+	/*background-color: #dbfffd !important;*/
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    background: linear-gradient(180deg, #3d0000, #f44242);
+}
+body {
+	background: transparent !important;
 }
 
 .search-bar {
@@ -16,10 +24,15 @@ html, body {
 	font-weight: bold;
 }
 
+.sb-title {
+	color: white !important;
+	text-shadow: 6px 6px 6px #000000;
+}
+
 .search-bar input {
 	width: 60%;
 	border: 1px solid #ddd;
-	border-radius: 50;
+	border-radius: 3px;
 	/*background-color: #ffeff3 !important;*/
 	background-color: white !important;
 }
@@ -28,12 +41,31 @@ html, body {
 	max-width: 64px;
 }
 
+.top25 {
+	color: white !important;
+	text-shadow: 6px 6px 6px #000000;
+	padding-left: 10px;
+}
+
+iframe {
+	padding-top: 8px;
+	border-radius: 5px;
+}
+
+.video-detail {
+	padding-top: 10px;
+	border-radius: 6px;
+	background-color: white;
+	margin-right: 10px;
+	margin-left: 10px !important;
+}
+
 .video-detail .details {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 20px;
 	background-color: white !important;
-	border-radius: 1%;
+	border-radius: 6px;
 }
 
 #video-title {
@@ -43,6 +75,10 @@ html, body {
 
 #video-desc {
 	font-size: 14px;
+}
+
+.list-group {
+	margin-left: 10px !important;
 }
 
 .list-group-item {
