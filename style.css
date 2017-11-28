@@ -6,7 +6,8 @@ html {
     width: 100%;
     overflow: hidden;
     margin: 0;
-    background: linear-gradient(180deg, #3d0000, #f44242);
+    /*background: linear-gradient(180deg, #3d0000, #f44242);*/
+    background-color: #f71839;
 }
 body {
 	background: transparent !important;
@@ -26,7 +27,7 @@ body {
 
 .sb-title {
 	color: white !important;
-	text-shadow: 6px 6px 6px #000000;
+	text-shadow: 4px 4px 4px #a52b3d;
 }
 
 .search-bar input {
@@ -43,7 +44,7 @@ body {
 
 .top25 {
 	color: white !important;
-	text-shadow: 6px 6px 6px #000000;
+	text-shadow: 4px 4px 4px #a52b3d;
 	padding-left: 10px;
 }
 
@@ -74,11 +75,12 @@ iframe {
 }
 
 #video-desc {
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .list-group {
 	margin-left: 10px !important;
+	font-size: 14px;
 }
 
 .list-group-item {
